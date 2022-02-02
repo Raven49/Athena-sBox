@@ -1,0 +1,257 @@
+.App{
+    padding: 0px 20px 0px 0px;
+}
+.sidebar{
+    width: 280px;
+}
+
+.sidebar .logo{
+    padding: 40px 25px;
+}
+.sidebar .logo img {
+    height: 100px;
+}
+.sidebar .nav{
+    padding: 50px 35px;
+}
+.sidebar .nav li a{
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 6px;
+}
+.sidebar .nav li a img { height: 14px;}
+.stats-box img { 
+    height: 16px;
+    margin-bottom: 10px;    
+}
+.updated-course img { height: 20px;}
+.sidebar .nav li a h2{margin-left: 8px;}
+
+.sidebar .nav li a.on{
+    border-left: 2px #ea5252 solid;
+    color: #ea5252;
+    line-height: 1;
+}
+.sidebar .updated-course{
+    padding: 0px 35px;
+    margin: 20px 0px;
+}
+.sidebar .updated-course .ico{
+    color: white;
+    background-color: #ea5252;
+    padding: 10px;
+    position: relative;
+    top: 6px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+.sidebar .stats{
+    margin: 30px 20px;}
+.sidebar .stats .stats-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.sidebar .me{
+    padding: 20px 40px;
+}
+.sidebar .me .photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 10px;
+    background: #eee;
+}
+.sidebar .me img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.app-content{
+    flex: 2;
+    padding: 20px 0px;
+}
+
+/* Home Page section CSS */
+
+ .section .title{
+    margin-bottom: 20px;
+}
+ .section .tutors .tutor{
+    border: 2px solid #ea5252;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 0px;
+}
+ .section .tutors .tutor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+ .section-b{
+    margin-top: 10px;
+}
+.section .courses a {
+    flex: 1;
+}
+ .section .course .block{
+    /* width: 250px; */
+    height: 375px;
+    background: #e2e2e2;
+    border-radius: 30px;
+    margin-right: 25px;
+    background-size: cover !important;
+}
+ .section .course .block .user{
+    padding: 5px 20px;
+    z-index: 1;
+}
+.section .course .block .user .pic{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.section .course .block .user .pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+ .section .course .block .dura{
+    top: 70px;
+    left: 20px;
+    background: #ea5252;
+    line-height: 1;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.33);
+    z-index: 1;
+}
+ .section .course .block .course-title{
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: rgba(87, 86, 165, 0.33);
+    text-shadow: 1px 1px 1px rgb(94, 116, 214);
+}
+
+.home-page .section .user-block .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.home-page .section .user-block .pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.home-page .section .user-block{
+    margin: 0px 50px 30px 0px;
+}
+.home-page .top-tutor{
+    flex-wrap: wrap;
+}
+
+    /* RIGHTBAR */
+
+.rightbar{
+    flex: 1;
+    padding: 20px 0px;
+}
+.rightbar .searchbox{
+    padding: 2px;
+    border-radius: 5px;
+}
+.rightbar .searchbox .qry{
+    flex: 1;
+    border: 0px;
+    padding: 12px;
+    background: #eaeaea;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.rightbar .searchbox .go{
+    border: 0px;
+    background: #ea5252;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.rightbar .searchbox .go:hover{
+    background: #d24444;
+}
+input {
+    outline: none;
+}
+.rightbar .courses{
+    flex-direction: column;
+}
+.rightbar .course .cols{
+    flex-direction: row;
+}
+.rightbar .course-a .block{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.rightbar .courses .cols .block{
+    height: 290px;
+}
+
+.rightbar .offer{
+    background: #e5fcfb;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rightbar .offer .meta{
+    flex: 1;
+    padding: 3px;
+    z-index: 2;
+}
+.rightbar .offer .vector{
+    /* padding-top: 30px; */
+    /* width: 150px; */
+    z-index: 2;
+}
+.rightbar .offer .ring{
+    height: 150px;
+    width: 130px;
+    background: #93ebe8;
+    border-radius: 100%;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.rightbar .offer .meta button{
+    background: #fff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.rightbar .offer .meta button:hover{
+    background: #d24444;
+    color: white;
+}
+.section .offer .meta h2{
+    color: #ea5252;
+}
